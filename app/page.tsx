@@ -3,6 +3,7 @@ import React from "react";
 
 import SortRoundedIcon from "@mui/icons-material/SortRounded";
 import TaskAltIcon from "@mui/icons-material/TaskAlt";
+import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
 import StorageRoundedIcon from "@mui/icons-material/StorageRounded";
 import ChangeHistoryRoundedIcon from "@mui/icons-material/ChangeHistoryRounded";
@@ -122,8 +123,7 @@ function Navbar() {
         {/* Icon Container */}
 
         {/* Icon */}
-
-        <TaskAltIcon sx={{ fontSize: 34 }} className="text-orange-600  " />
+        <IoMdCheckmarkCircleOutline style={{ fontSize: 34 }} className="text-orange-600  " />
 
         {/* App Name */}
         <div className="flex gap-1 text-[22px] ">
