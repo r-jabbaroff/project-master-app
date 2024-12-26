@@ -97,7 +97,7 @@ function page() {
         </button>
 
         <Image
-          src={"/app.png"}
+          src={"/project-master-dashboard.png"}
           alt="dashboard"
           width={900}
           height={400}
@@ -142,7 +142,7 @@ function Navbar() {
           <>
             <Link href="/sign-in">
               <button
-                className={` max-sm:w-full text-sm border border-orange-600 text-white bg-orange-600 
+                className={` max-sm:w-full text-sm border border-orange-600 text-white bg-orange-600
  p-[8px] px-6 rounded-md `}
               >
                 Sign In
@@ -151,7 +151,7 @@ function Navbar() {
 
             <Link href="/sign-up">
               <button
-                className={` max-sm:w-full text-sm border border-orange-600 text-orange-600 
+                className={` max-sm:w-full text-sm border border-orange-600 text-orange-600
 hover:bg-orange-600 hover:text-white p-[8px] px-6 rounded-md `}
               >
                 Sign Up
